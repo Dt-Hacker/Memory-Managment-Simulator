@@ -145,7 +145,7 @@ Run:
 
 ---
 
-🧪 Testing
+## 🧪 Testing
 
 Automated testing using stdin redirection:
 ```
