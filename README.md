@@ -199,7 +199,8 @@ memory_management_simulator/
 ---
 ## **🙍‍♂️ Author**
 
-Dakshit Tanay
+Dakshit Tanay<br>
+Enrollment number : 24114030
 
-🎥 Project Demo
+## 🎥 Project Demo
 👉 https://www.youtube.com/watch?v=xxLkp1VCjtI
