@@ -147,7 +147,7 @@ Then Run:
 
 ## 🧪 Testing
 
-### Automated testing using stdin redirection:
+### ▶ Automated testing using stdin redirection:
 ```
 ./simulator < tests/test_contiguous.txt
 ./simulator < tests/test_cache.txt
@@ -197,7 +197,7 @@ memory_management_simulator/
 └── README.md
 ```
 ---
-**🙍‍♂️ Author**
+## **🙍‍♂️ Author**
 
 Dakshit Tanay
 
