@@ -154,8 +154,7 @@ Then Run:
 ./simulator < tests/test_buddy.txt
 ./simulator < tests/test_vm.txt
 ```
-
-
+✔ Works on Linux / WSL / Git Bash / MSYS2<br>
 
 ### ▶ Run All Tests Using Script (run_tests.sh)
 ```
