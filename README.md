@@ -123,7 +123,7 @@ This document covers:
 Supported on **Linux / WSL / MSYS2 / Git Bash**:
 
 ```bash
-make <br>
+make
 ./simulator
 ```
 
@@ -132,9 +132,7 @@ make <br>
 If ```make``` is unavailable:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -O2 \
-main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp \
--o simulator
+g++ -std=c++17 main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp -o simulator
 ```
 Run:
 
