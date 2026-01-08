@@ -1,0 +1,13 @@
+4
+2
+4
+3
+1024
+1
+access 0 0
+access 1 1024
+access 0 0
+access 0 2048
+stats
+exit
+5

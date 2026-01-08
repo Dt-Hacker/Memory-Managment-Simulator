@@ -1,0 +1,12 @@
+3
+1024
+16
+help
+alloc 20
+alloc 60
+free 64
+dump
+alloc 16
+dump
+back
+5

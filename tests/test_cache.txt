@@ -1,0 +1,21 @@
+2
+help
+init
+32768
+64
+1
+1
+262144
+2
+4
+1048576
+4
+10
+fifo
+access 0
+access 524288
+access 524288
+access 0
+stats
+exit
+5
