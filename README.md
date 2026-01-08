@@ -124,33 +124,36 @@ Supported on **Linux / WSL / MSYS2 / Git Bash**:
 
 ```bash
 make 
-```
 ./simulator
+```
 
 🧱 Using g++ Directly
 
-If make is unavailable:
+If ```make``` is unavailable:
 
+```bash
 g++ -std=c++17 -Wall -Wextra -O2 \
 main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp \
--o simulator
+-o simulator```
+
 Run:
 
-bash
-Copy code
-./simulator
-📌 Windows users: Use WSL or Git Bash for correct execution.
+```bash
+./simulator```
+📌**Windows users**: Use **WSL** or **Git Bash** or **MSYS2** for correct execution.
 
 🧪 Testing
 
 Automated testing using stdin redirection:
-
+```
 ./simulator < tests/test_contiguous.txt
 ./simulator < tests/test_cache.txt
 ./simulator < tests/test_buddy.txt
 ./simulator < tests/test_vm.txt
+```
 
 📂 Project Structure
+```
 memory_management_simulator/
 │
 ├── include/                  # Header files
@@ -174,28 +177,7 @@ memory_management_simulator/
 ├── Makefile
 ├── Memory_managment.docx     # Detailed documentation
 └── README.md
-
-📌 Notes & Troubleshooting
-❓ make: command not found
-
-Install build tools:
-
-WSL / Ubuntu
-
-sudo apt update
-sudo apt install build-essential
-
-
-Windows
-
-Use WSL, MSYS2, or Git Bash
-
-❓ stdin redirection not working
-
-Ensure you are using a Bash-like shell
-
-Native PowerShell / CMD does not fully support <
-
+```
 🙍‍♂️ Author
 
 Dakshit Tanay
