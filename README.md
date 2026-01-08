@@ -128,7 +128,7 @@ make
 ./simulator
 ```
 
-🧱 Using g++ Directly
+### 🧱 Using g++ Directly
 
 If ```make``` is unavailable:
 
