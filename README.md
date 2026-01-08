@@ -123,7 +123,7 @@ This document covers:
 Supported on **Linux / WSL / MSYS2 / Git Bash**:
 
 ```bash
-make 
+make <br>
 ./simulator
 ```
 
@@ -181,7 +181,7 @@ memory_management_simulator/
 ├── Memory_managment.docx     # Detailed documentation
 └── README.md
 ```
-🙍‍♂️ Author
+```🙍‍♂️ Author ```
 
 Dakshit Tanay
 
