@@ -116,13 +116,22 @@ This document covers:
 
 ## 🚀 Build & Run
 
-### 🧰 Using Makefile (Recommended)
+### 🧰 Using Makefile
 
 Supported on **Linux / WSL / MSYS2 / Git Bash**:
 
 ```bash
 make
 ./simulator
+```
+
+### 🧰 Using Setup.sh
+
+Supported on **Linux / WSL / MSYS2 / Git Bash**:
+
+```bash
+chmod +x setup.sh
+./setup.sh
 ```
 
 ### 🧱 Using g++ Directly
@@ -132,7 +141,7 @@ If ```make``` is unavailable:
 ```bash
 g++ -std=c++17 main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp -o simulator
 ```
-If above not works try :
+If above not works, try :
 ```bash
 g++ main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp -o simulator
 ```
@@ -141,7 +150,7 @@ Then Run:
 ```bash
 ./simulator
 ```
-📌**Windows users**: Use **WSL** or **Git Bash** or **MSYS2** for correct execution.
+📌**Windows users**: Use **WSL** or **Git Bash** or **MSYS2** for better execution.
 
 ---
 
