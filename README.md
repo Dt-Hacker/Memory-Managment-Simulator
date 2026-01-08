@@ -143,6 +143,8 @@ Run:
 ```
 📌**Windows users**: Use **WSL** or **Git Bash** or **MSYS2** for correct execution.
 
+---
+
 🧪 Testing
 
 Automated testing using stdin redirection:
