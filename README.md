@@ -123,10 +123,10 @@ This document covers:
 Supported on **Linux / WSL / MSYS2 / Git Bash**:
 
 ```bash
-make ```
+make 
 ```
 ./simulator
-````
+
 🧱 Using g++ Directly
 
 If make is unavailable:
