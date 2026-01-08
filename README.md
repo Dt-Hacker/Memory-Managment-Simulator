@@ -147,7 +147,7 @@ Then Run:
 
 ## 🧪 Testing
 
-Automated testing using stdin redirection:
+### Automated testing using stdin redirection:
 ```
 ./simulator < tests/test_contiguous.txt
 ./simulator < tests/test_cache.txt
@@ -155,7 +155,21 @@ Automated testing using stdin redirection:
 ./simulator < tests/test_vm.txt
 ```
 
-📂 Project Structure
+
+
+### ▶ Run All Tests Using Script (run_tests.sh)
+```
+chmod +x run_tests.sh
+./run_tests.sh
+```
+
+✔ Automatically runs all test cases
+✔ Uses stdin redirection
+✔ Works on Linux / WSL / Git Bash / MSYS2
+
+---
+
+## 📂 Project Structure
 ```
 memory_management_simulator/
 │
