@@ -1,4 +1,4 @@
-#include "buddy.h"
+#include "include/buddy.h"
 #include <iostream>
 #include <cmath>
 #include <stdexcept>

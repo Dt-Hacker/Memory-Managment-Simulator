@@ -1,4 +1,4 @@
-#include "cache.h"
+#include "include/cache.h"
 #include <limits>
 
 Cache::Cache(size_t csize,size_t bsize,size_t assoc,ReplacementPolicy pol,uint64_t latency):

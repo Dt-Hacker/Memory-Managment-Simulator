@@ -4,10 +4,10 @@
 #include <sstream>
 
 // your already-written modules
-#include "memory.h"
-#include "cache.h"
-#include "virtual_memory.h"
-#include "buddy.h"
+#include "include/memory.h"
+#include "include/cache.h"
+#include "include/virtual_memory.h"
+#include "include/buddy.h"
 
 using namespace std;
 
