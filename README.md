@@ -111,6 +111,7 @@ This document covers:
 - Algorithm explanations
 - Design decisions
 - Sample scenarios and outputs
+- Output of the designs given above
 
 📎 Recommended for **understanding internals and exam preparation**.
 
