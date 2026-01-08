@@ -134,12 +134,13 @@ If ```make``` is unavailable:
 ```bash
 g++ -std=c++17 -Wall -Wextra -O2 \
 main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp \
--o simulator```
-
+-o simulator
+```
 Run:
 
 ```bash
-./simulator```
+./simulator
+```
 📌**Windows users**: Use **WSL** or **Git Bash** or **MSYS2** for correct execution.
 
 🧪 Testing
