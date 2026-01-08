@@ -132,7 +132,11 @@ If ```make``` is unavailable:
 ```bash
 g++ -std=c++17 main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp -o simulator
 ```
-Run:
+If above not works try :
+```bash
+g++ main.cpp memory.cpp cache.cpp buddy.cpp virtual_memory.cpp -o simulator
+```
+Then Run:
 
 ```bash
 ./simulator
