@@ -163,9 +163,9 @@ chmod +x run_tests.sh
 ./run_tests.sh
 ```
 
-✔ Automatically runs all test cases
-✔ Uses stdin redirection
-✔ Works on Linux / WSL / Git Bash / MSYS2
+✔ Automatically runs all test cases<br>
+✔ Uses stdin redirection<br>
+✔ Works on Linux / WSL / Git Bash / MSYS2<br>
 
 ---
 
@@ -179,6 +179,7 @@ memory_management_simulator/
 │   ├── buddy.h
 │   └── virtual_memory.h
 │
+├── run_tests.sh
 ├── tests/                    # Test cases
 │   ├── test_contiguous.txt
 │   ├── test_cache.txt
