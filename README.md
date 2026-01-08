@@ -179,6 +179,7 @@ memory_management_simulator/
 ├── Memory_managment.docx     # Detailed documentation
 └── README.md
 ```
+---
 **🙍‍♂️ Author**
 
 Dakshit Tanay
