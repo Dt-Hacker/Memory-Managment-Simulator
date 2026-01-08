@@ -22,7 +22,6 @@ The project provides an **interactive CLI-based simulation environment** and is 
 - 🚀 Build & Run  
 - 🧪 Testing  
 - 📂 Project Structure  
-- 📌 Notes & Troubleshooting  
 - 🙍‍♂️ Author  
 
 ---
@@ -34,20 +33,18 @@ This simulator demonstrates how an operating system manages memory at multiple l
 - Dynamic memory allocation (**First Fit, Best Fit, Worst Fit**)
 - **Buddy system memory allocator**
 - **Set-associative multi-level CPU cache**
-- **Paging-based virtual memory** with page replacement algorithms
-
-🎯 Ideal for **OS courses, lab evaluations, academic projects, and viva demonstrations**.
+- **Paging-based virtual memory** with page replacement algorithms(multiprocess).
 
 ---
 
 ## 🧱 Features
 
-- ✔ Contiguous memory allocation with fragmentation statistics  
-- ✔ Buddy memory allocation with block merging  
-- ✔ Configurable CPU cache (**L1 / L2 / L3**)  
-- ✔ Cache replacement policies: **FIFO, LRU, LFU**  
-- ✔ Virtual memory with **FIFO, LRU, CLOCK**  
-- ✔ Interactive CLI with stdin-based test support  
+- ✔ Contiguous memory allocation with fragmentation statistics .
+- ✔ Buddy memory allocation with block merging.  
+- ✔ Configurable CPU cache (**L1 / L2 / L3**) . 
+- ✔ Cache replacement policies: **FIFO, LRU, LFU**.  
+- ✔ Virtual memory with **FIFO, LRU, CLOCK**.  
+- ✔ Interactive CLI with stdin-based test support.  
 
 ---
 
@@ -111,7 +108,7 @@ This document covers:
 - Algorithm explanations
 - Design decisions
 - Sample scenarios and outputs
-- Output of the designs given above
+- Output of the inputs given above
 
 📎 Recommended for **understanding internals and exam preparation**.
 
